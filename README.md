@@ -7,5 +7,7 @@ This framework can perform basic control flow analysis of an AST representing an
 ## Implementation
 Implemented with Monads. User must implement their custom lattice and transfer functions, like the illustration below shows.
 
+![alt text](./images/FrameworkOverview.png "Logo Title Text 1")
+
 # Example use
 An example analysis and optimizer for live variable analysis can be found in `LiveVariable.hs`, just load it in `ghci` and call `test1`.
